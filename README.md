@@ -1,6 +1,15 @@
-# Tiny Git - Snapshot-Based File Versioning
+# Tiny Git - CLI File Versioning System
 
 A minimal file versioning system using content-addressed snapshots, inspired by Git.
+
+## Tech Stack
+
+- **clap**: CLI argument parsing (subcommands, flags)
+- **sha1**: Content hashing
+- **flate2**: Zlib compression
+- **serde/serde_json**: Object serialization
+- **chrono**: Timestamps
+- **anyhow**: Error handling
 
 ## Implementation Phases
 
